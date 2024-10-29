@@ -61,11 +61,11 @@ public class AuditLoaderPlugin extends Plugin implements AuditPlugin {
     /**
      * 列分隔符
      */
-    private static final char COLUMN_SEPARATOR = 0x01;
+    private static final String COLUMN_SEPARATOR = "~&^*^&~";
     /**
      * 行分隔符
      */
-    private static final char ROW_DELIMITER = 0x02;
+    private static final String ROW_DELIMITER = "!$_$!";
 
     @Override
     public void init(PluginInfo info, PluginContext ctx) throws PluginException {
